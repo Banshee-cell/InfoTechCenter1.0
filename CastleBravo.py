@@ -15,6 +15,10 @@ print(f"\n{TextColors.CYAN}Welcome to InfoTechCenter V1.0{TextColors.RESET}\n")
 x = 0  # Counter for booting iterations
 ellipsis = 0  # Counter for the ellipsis effect
 
+timetosleep=4 # variable to et the time library to 4 seconds when called
+time.sleep(timetosleep) # calling the time to sleep library with the variable time
+
+
 # Loop to simulate the system booting process
 while x != 20:
     x += 1  # Increment the boot counter
@@ -22,7 +26,7 @@ while x != 20:
     message = f"{TextColors.CYAN}InfoTech Center System Booting" + "." * ellipsis + f"{TextColors.RESET}"
     ellipsis += 1  # Increment the ellipsis counter
     sys.stdout.write("\r" + message)  # Overwrite the current line with the message
-    time.sleep(0.5)  # Pause for half a second
+    time.sleep(0.2)  # Pause for half a second
 
     # Reset ellipsis counter after reaching 4 dots
     if ellipsis == 4:
