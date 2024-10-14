@@ -26,7 +26,7 @@ while x != 20:
     message = f"{TextColors.CYAN}InfoTech Center System Booting" + "." * ellipsis + f"{TextColors.RESET}"
     ellipsis += 1  # Increment the ellipsis counter
     sys.stdout.write("\r" + message)  # Overwrite the current line with the message
-    time.sleep(0.2)  # Pause for half a second
+    time.sleep(0.5)  # Pause for half a second
 
     # Reset ellipsis counter after reaching 4 dots
     if ellipsis == 4:
