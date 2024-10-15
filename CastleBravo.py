@@ -43,7 +43,7 @@ def vehicleResponseSystem():
         print("\nThe National Weather Service has updated our alarm by 50 minutes because"
         "of the forecast of", weatherAlert, "weather conditions")
 
-    elif weatherAlert == "sunny":
+    else
         print("\nThe National Weather Service has turned off because of" ,weatherAlert,"sky's")
 
 vehicleResponseSystem()
