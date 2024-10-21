@@ -1,6 +1,6 @@
 
 import sys  # Importing the sys module for system-specific parameters and functions
-import time  # Importing the time module to use time-related functionsimport sys  # Importing the sys module for system-specific parameters and functions
+import time  # Importing the time module to use time-related functions# import sys  # Importing the sys module for system-specific parameters and functions
 import time  # Importing the time module to use time-related functions
 
 # ANSI escape codes for colors
