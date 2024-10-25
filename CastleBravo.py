@@ -13,6 +13,7 @@ def gasStations():
     listOfGasStations = ["VP","Shell","Meijer","Sams Club","Marathon","Mobile","Speedway","Circle K"]
     return random.choice(listOfGasStations)
 
-print(gasLevelGauge())
-print(gasStations())
-#def gasLevelAlert():
+def gasLevelAlert():
+    milesToGasStationLow = random.uniform(1,25)
+    milesToGasStationQuarterTank = random.uniform(25.1,50)
+    gasLevelIndicator = gasLevelGauge()
